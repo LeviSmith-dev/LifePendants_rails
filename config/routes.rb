@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   get 'pages/how_it_works'
 
   get 'pages/local_order'
